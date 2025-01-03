@@ -1,0 +1,220 @@
+
+
+.UserHome{
+    min-height: 100vh;
+    width: 100%;
+    z-index: 1;
+}
+
+
+
+.bgcDiv{
+    background: url("../../../assets/bgc1.jpg") no-repeat;
+    background-size: cover;
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+}
+
+
+.ConversationDisplayContainer{
+    min-height: 100vh;
+    width: 100%;
+    /* background-color: salmon; */
+    padding-top: 40px;
+    padding-left: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.userHomeNavContainer{
+    height: 90px;
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    z-index: 100;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.connectDisConnectBtnDiv{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.disconnectBtn{
+  
+    height: 40px;
+    width: 120px;
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    background-color: rgb(73, 72, 72);
+    color: white;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.eachConversationDivContainer{
+    min-height: 100vh;
+    width: 100%;
+    margin-top: 70px;
+}
+
+
+
+.eachConversationDiv{
+    height: 70px;
+    width: 95%;
+    /* border: 1px solid gray; */
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600;
+    /* background: linear-gradient(to right, lightpink, lightblue);  */
+    margin-top: 10px;
+    background: rgba(255, 255, 255, 0.034);
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+}
+
+
+
+.eachConversationImageDiv{
+    height: 55px;
+    width: 55px;
+    background-color: white;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+
+
+.eachConversationImageDiv>img{
+    height: 55px;
+    width: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    /* background: linear-gradient(to right bottom, lightpink, lightblue); */
+}
+
+.eachConversationName{
+    color: #d8d5d5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.addUserBtnDiv{
+    height: 60px;
+    width: 60px;
+    position: fixed;
+    bottom: 10%;
+    right: 30px;
+    /* background-color: #5aee2d; */
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    background: rgba(16, 231, 52, 0.671);
+}
+
+.addUserBtnDiv>i{
+    font-size: 25px;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:400px){
+
+    .userHomeNavContainer{
+        height: 90px;
+    }
+
+
+}

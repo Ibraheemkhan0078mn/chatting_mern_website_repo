@@ -1,0 +1,111 @@
+.UserHomeNavbar {
+    height: 70px;
+    width: 100%;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.currentPageTitle>h2 {
+    font-size: 25px;
+    color: #eeeeeecc;
+}
+
+
+
+.userMainData {
+    height: 70px;
+    width: 200px;
+    /* margin-left: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.userMainData>img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+
+}
+
+
+.userMainData>h2 {
+    color: #e0dbdb;
+}
+
+
+
+.userHomeNavIcon {
+    height: 30px;
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 40px;
+}
+
+
+.userHomeNavIcon>i {
+    font-size: 25px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width:400px) {
+
+
+    .UserHomeNavbar {
+        margin-top: 40px;
+        display: flex;
+        padding: 0;
+    }
+
+    .userMainData {
+        display: flex;
+        gap: 5px;
+    }
+
+    .userMainData>img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .userMainData>h2 {
+        font-size: 15px;
+    }
+
+
+    .currentPageTitle>h2{
+        font-size: 20px;
+        margin-top: -60px;
+        position: fixed;
+        left: 50%;
+        top: 70px;
+        transform: translate(-50%, -30%);
+    }
+
+
+    .userHomeNavIcon{
+        width: 60px;
+    }
+
+
+    .userHomeNavIcon>i{
+        font-size: 23px;
+    }
+
+}
